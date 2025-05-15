@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
@@ -14,23 +13,23 @@ export default function HomePage() {
   const featuredProperties = properties.slice(0, 3);
 
   const popularDestinations = [
-    { 
-      name: 'New York', 
+    {
+      name: 'New York',
       image: 'https://images.pexels.com/photos/2224861/pexels-photo-2224861.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       propertyCount: properties.filter(p => p.location.city === 'New York').length
     },
-    { 
-      name: 'Paris', 
+    {
+      name: 'Paris',
       image: 'https://images.pexels.com/photos/532826/pexels-photo-532826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       propertyCount: properties.filter(p => p.location.city === 'Paris').length
     },
-    { 
-      name: 'Tokyo', 
+    {
+      name: 'Tokyo',
       image: 'https://images.pexels.com/photos/1749057/pexels-photo-1749057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       propertyCount: properties.filter(p => p.location.city === 'Tokyo').length
     },
-    { 
-      name: 'London', 
+    {
+      name: 'London',
       image: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       propertyCount: properties.filter(p => p.location.city === 'London').length
     },
@@ -43,11 +42,10 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      
-      {/* Hero Section */}
-      <div 
+
+      <div
         className="relative h-[500px] bg-cover bg-center flex items-center justify-center"
-        style={{ 
+        style={{
           backgroundImage: 'url(https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)'
         }}
       >
@@ -59,12 +57,12 @@ export default function HomePage() {
           <p className="text-xl text-white mb-8">
             {t('home.hero.subtitle')}
           </p>
-          
+
           <div className="bg-white p-4 rounded-lg shadow-lg max-w-md mx-auto">
             <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2">
-              <input 
-                type="text" 
-                placeholder={t('navigation.searchPlaceholder')}
+              <input
+                type="text"
+                placeholder={t('home.hero.searchPlaceholder')}
                 className="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF5A5F]"
               />
               <Button
@@ -72,27 +70,26 @@ export default function HomePage() {
                 variant="primary"
                 icon={<Search size={18} />}
               >
-                {t('navigation.search')}
+                {t('home.hero.searchButton')}
               </Button>
             </div>
           </div>
         </div>
       </div>
-      
-      {/* Featured Properties */}
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-2xl sm:text-3xl font-bold mb-6">{t('home.featured.title')}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {featuredProperties.map((property) => (
-            <div 
+            <div
               key={property.id}
               className="group cursor-pointer rounded-xl overflow-hidden"
               onClick={() => navigate(`/properties/${property.id}`)}
             >
               <div className="relative aspect-[4/3] overflow-hidden">
-                <img 
-                  src={property.images[0]} 
-                  alt={property.title} 
+                <img
+                  src={property.images[0]}
+                  alt={property.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -117,29 +114,30 @@ export default function HomePage() {
           </Button>
         </div>
       </div>
-      
-      {/* Destinations Grid */}
+
       <div className="bg-gray-100 py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold mb-6">{t('home.destinations.title')}</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {popularDestinations.map((destination) => (
-              <div 
+              <div
                 key={destination.name}
                 className="relative rounded-lg overflow-hidden cursor-pointer group"
                 onClick={() => handleDestinationClick(destination.name)}
               >
                 <div className="aspect-square">
-                  <img 
-                    src={destination.image} 
-                    alt={destination.name} 
+                  <img
+                    src={destination.image}
+                    alt={destination.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-4">
                   <p className="text-white font-medium text-lg">{destination.name}</p>
                   <p className="text-white/80 text-sm">
-                    {destination.propertyCount} {destination.propertyCount === 1 ? 'property' : 'properties'}
+                    {destination.propertyCount} {destination.propertyCount === 1
+                      ? t('home.destinations.property')
+                      : t('home.destinations.properties')}
                   </p>
                 </div>
               </div>
@@ -147,8 +145,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      
-      {/* Become a Host CTA */}
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-[#FF5A5F] rounded-xl overflow-hidden">
           <div className="flex flex-col lg:flex-row">
@@ -156,9 +153,9 @@ export default function HomePage() {
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">{t('home.becomeHost.title')}</h2>
               <p className="text-lg mb-6">{t('home.becomeHost.subtitle')}</p>
               <div>
-                <Button 
-                  onClick={() => navigate('/dashboard')}
-                  variant="outline" 
+                <Button
+                  onClick={() => navigate('/become-host')}
+                  variant="outline"
                   className="border-white text-white hover:bg-white hover:text-[#FF5A5F]"
                 >
                   {t('home.becomeHost.learnMore')}
@@ -166,17 +163,16 @@ export default function HomePage() {
               </div>
             </div>
             <div className="lg:w-1/2">
-              <img 
-                src="https://images.pexels.com/photos/5502227/pexels-photo-5502227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="Become a host" 
+              <img
+                src="https://images.pexels.com/photos/5502227/pexels-photo-5502227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Become a host"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
         </div>
       </div>
-      
-      {/* Footer */}
+
       <footer className="bg-gray-900 text-white py-12 mt-auto">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -221,9 +217,9 @@ export default function HomePage() {
               <p>{t('footer.copyright')}</p>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="hover:text-[#FF5A5F]">{t('footer.privacy')}</a>
-              <a href="#" className="hover:text-[#FF5A5F]">{t('footer.terms')}</a>
-              <a href="#" className="hover:text-[#FF5A5F]">{t('footer.sitemap')}</a>
+              <a href="#" className="hover:text-[#FF5A5F]">{t('footer.links.privacy')}</a>
+              <a href="#" className="hover:text-[#FF5A5F]">{t('footer.links.terms')}</a>
+              <a href="#" className="hover:text-[#FF5A5F]">{t('footer.links.sitemap')}</a>
             </div>
           </div>
         </div>

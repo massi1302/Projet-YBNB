@@ -59,7 +59,7 @@ export default function AddPropertyPage() {
       setFormData(prev => ({
         ...prev,
         [parent]: {
-          ...((prev as any)[parent] || {}),
+          ...((prev[parent as keyof typeof prev] as object) || {}),
           [child]: value
         }
       }));

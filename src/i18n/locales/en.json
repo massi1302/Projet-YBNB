@@ -221,5 +221,62 @@
       "editProperty": "Edit",
       "addNew": "Add New Property"
     }
+  },
+  "home": {
+    "hero": {
+      "title": "Find your next stay",
+      "subtitle": "Search deals on hotels, homes, and much more...",
+      "searchPlaceholder": "Where are you going?",
+      "searchButton": "Search"
+    },
+    "featured": {
+      "title": "Featured Properties",
+      "browseAll": "Browse All Properties"
+    },
+    "destinations": {
+      "title": "Popular Destinations",
+      "properties": "properties",
+      "property": "property"
+    },
+    "becomeHost": {
+      "title": "Become a Host",
+      "subtitle": "Earn extra income and unlock new opportunities by sharing your space.",
+      "learnMore": "Learn More"
+    }
+  },
+  "footer": {
+    "support": {
+      "title": "Support",
+      "helpCenter": "Help Center",
+      "safety": "Safety Information",
+      "cancellation": "Cancellation Options",
+      "covid": "COVID-19 Response"
+    },
+    "community": {
+      "title": "Community",
+      "disaster": "Disaster Relief",
+      "refugees": "Support Refugees",
+      "discrimination": "Combating Discrimination"
+    },
+    "hosting": {
+      "title": "Hosting",
+      "tryHosting": "Try Hosting",
+      "protection": "Host Protection",
+      "resources": "Host Resources",
+      "community": "Host Community"
+    },
+    "about": {
+      "title": "About",
+      "newsroom": "Newsroom",
+      "features": "New Features",
+      "careers": "Careers",
+      "investors": "Investors"
+    },
+    "links": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "sitemap": "Sitemap"
+    },
+    "copyright": "© 2024 Ybnb, Inc. All rights reserved."
   }
 }

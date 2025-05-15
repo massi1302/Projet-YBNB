@@ -221,5 +221,62 @@
       "editProperty": "Modifier",
       "addNew": "Ajouter une nouvelle propriété"
     }
+  },
+  "home": {
+    "hero": {
+      "title": "Trouvez votre prochain séjour",
+      "subtitle": "Recherchez des offres sur les hôtels, les maisons et plus encore...",
+      "searchPlaceholder": "Où allez-vous ?",
+      "searchButton": "Rechercher"
+    },
+    "featured": {
+      "title": "Propriétés en vedette",
+      "browseAll": "Voir toutes les propriétés"
+    },
+    "destinations": {
+      "title": "Destinations populaires",
+      "properties": "propriétés",
+      "property": "propriété"
+    },
+    "becomeHost": {
+      "title": "Devenez hôte",
+      "subtitle": "Gagnez un revenu supplémentaire et découvrez de nouvelles opportunités en partageant votre espace.",
+      "learnMore": "En savoir plus"
+    }
+  },
+  "footer": {
+    "support": {
+      "title": "Assistance",
+      "helpCenter": "Centre d'aide",
+      "safety": "Informations de sécurité",
+      "cancellation": "Options d'annulation",
+      "covid": "Réponse COVID-19"
+    },
+    "community": {
+      "title": "Communauté",
+      "disaster": "Aide aux sinistrés",
+      "refugees": "Soutien aux réfugiés",
+      "discrimination": "Lutte contre la discrimination"
+    },
+    "hosting": {
+      "title": "Hébergement",
+      "tryHosting": "Essayer l'hébergement",
+      "protection": "Protection des hôtes",
+      "resources": "Ressources pour les hôtes",
+      "community": "Communauté des hôtes"
+    },
+    "about": {
+      "title": "À propos",
+      "newsroom": "Salle de presse",
+      "features": "Nouvelles fonctionnalités",
+      "careers": "Carrières",
+      "investors": "Investisseurs"
+    },
+    "links": {
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "sitemap": "Plan du site"
+    },
+    "copyright": "© 2024 Ybnb, Inc. Tous droits réservés."
   }
 }
