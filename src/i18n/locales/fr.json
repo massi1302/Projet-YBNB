@@ -1,0 +1,174 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "add": "Ajouter",
+    "share": "Partager",
+    "showMore": "Voir plus",
+    "showLess": "Voir moins",
+    "comingSoon": "Bientôt disponible",
+    "underDevelopment": "Cette section est en cours de développement"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "signup": "S'inscrire",
+    "logout": "Se déconnecter",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "rememberMe": "Se souvenir de moi",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "hasAccount": "Vous avez déjà un compte ?"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "properties": "Propriétés",
+    "bookings": "Réservations",
+    "messages": "Messages",
+    "dashboard": "Tableau de bord",
+    "favorites": "Favoris",
+    "settings": "Paramètres",
+    "becomeHost": "Devenir hôte",
+    "search": "Rechercher",
+    "searchPlaceholder": "Où allez-vous ?",
+    "myListings": "Mes annonces"
+  },
+  "property": {
+    "title": "Propriétés",
+    "noResults": "Aucune propriété trouvée",
+    "tryAdjustingFilters": "Essayez d'ajuster vos filtres pour trouver plus d'options",
+    "onePropertyFound": "propriété disponible",
+    "multiplePropertiesFound": "propriétés disponibles",
+    "mapViewComing": "Carte bientôt disponible",
+    "notFound": "Propriété non trouvée",
+    "notFoundDescription": "La propriété que vous recherchez n'existe pas ou a été supprimée.",
+    "browseAll": "Voir toutes les propriétés",
+    "types": {
+      "apartment": "Appartement",
+      "house": "Maison",
+      "room": "Chambre",
+      "hotel": "Hôtel",
+      "cabin": "Chalet",
+      "beach": "Plage",
+      "countryside": "Campagne",
+      "camping": "Camping"
+    },
+    "filters": {
+      "title": "Filtres",
+      "searchLocation": "Rechercher un lieu",
+      "price": "Prix",
+      "minPrice": "Prix minimum",
+      "maxPrice": "Prix maximum",
+      "propertyType": "Type de propriété",
+      "amenities": "Équipements",
+      "bedrooms": "Chambres",
+      "bathrooms": "Salles de bain",
+      "guests": "Voyageurs",
+      "apply": "Appliquer",
+      "clear": "Effacer"
+    },
+    "details": {
+      "perNight": "par nuit",
+      "nights": "nuits",
+      "totalPrice": "Prix total",
+      "cleaningFee": "Frais de ménage",
+      "serviceFee": "Frais de service",
+      "total": "Total",
+      "checkIn": "Arrivée",
+      "checkOut": "Départ",
+      "guests": "Voyageurs",
+      "guest": "Voyageur",
+      "bedroom": "Chambre",
+      "bedrooms": "Chambres",
+      "bathroom": "Salle de bain",
+      "bathrooms": "Salles de bain",
+      "upTo": "Jusqu'à",
+      "reserve": "Réserver",
+      "contact": "Contacter l'hôte",
+      "amenities": "Ce que propose ce logement",
+      "location": "Emplacement",
+      "description": "Description",
+      "hosted": "Hébergé par",
+      "reviews": "avis",
+      "selectDates": "Veuillez sélectionner les dates d'arrivée et de départ",
+      "contactHostMessage": "Contactez l'hôte pour en savoir plus sur la propriété ou pour organiser des arrangements spéciaux.",
+      "messagePlaceholder": "Écrivez un message à l'hôte...",
+      "sendMessage": "Envoyer le message",
+      "noCharge": "Aucun montant ne sera débité pour le moment",
+      "mapPlaceholder": "La carte sera affichée ici"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Trouvez votre prochain séjour",
+      "subtitle": "Recherchez des offres sur les hôtels, les maisons et plus encore..."
+    },
+    "featured": {
+      "title": "Propriétés en vedette",
+      "browseAll": "Voir toutes les propriétés"
+    },
+    "destinations": {
+      "title": "Destinations populaires"
+    },
+    "becomeHost": {
+      "title": "Devenez hôte",
+      "subtitle": "Gagnez un revenu supplémentaire et découvrez de nouvelles opportunités en partageant votre espace.",
+      "learnMore": "En savoir plus"
+    }
+  },
+  "footer": {
+    "support": {
+      "title": "Assistance",
+      "helpCenter": "Centre d'aide",
+      "safety": "Informations de sécurité",
+      "cancellation": "Options d'annulation",
+      "covid": "Réponse COVID-19"
+    },
+    "community": {
+      "title": "Communauté",
+      "disaster": "Aide aux sinistrés",
+      "refugees": "Soutien aux réfugiés",
+      "discrimination": "Lutte contre la discrimination"
+    },
+    "hosting": {
+      "title": "Hébergement",
+      "tryHosting": "Essayer l'hébergement",
+      "protection": "Protection des hôtes",
+      "resources": "Ressources pour les hôtes",
+      "community": "Communauté des hôtes"
+    },
+    "about": {
+      "title": "À propos",
+      "newsroom": "Salle de presse",
+      "features": "Nouvelles fonctionnalités",
+      "careers": "Carrières",
+      "investors": "Investisseurs"
+    },
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "sitemap": "Plan du site",
+    "copyright": "© 2024 Ybnb, Inc. Tous droits réservés."
+  },
+  "settings": {
+    "personalInfo": "Informations personnelles",
+    "security": "Sécurité",
+    "notifications": "Notifications",
+    "payments": "Paiements",
+    "language": "Langue",
+    "travel": "Voyage",
+    "hosting": "Hébergement",
+    "profileInfo": "Informations du profil",
+    "fullName": "Nom complet",
+    "phone": "Numéro de téléphone",
+    "address": "Adresse",
+    "addPhone": "Ajouter un numéro de téléphone",
+    "addAddress": "Ajouter une adresse",
+    "deleteConfirmation": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.",
+    "loginRequired": "Vous devez être connecté pour accéder aux paramètres."
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "share": "Share",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "comingSoon": "Coming Soon",
+    "underDevelopment": "This section is under development"
+  },
+  "auth": {
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "rememberMe": "Remember me",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "navigation": {
+    "home": "Home",
+    "properties": "Properties",
+    "bookings": "Bookings",
+    "messages": "Messages",
+    "dashboard": "Dashboard",
+    "favorites": "Favorites",
+    "settings": "Settings",
+    "becomeHost": "Become a Host",
+    "search": "Search",
+    "searchPlaceholder": "Where are you going?",
+    "myListings": "My Listings"
+  },
+  "property": {
+    "title": "Properties",
+    "noResults": "No properties found",
+    "tryAdjustingFilters": "Try adjusting your filters to find more options",
+    "onePropertyFound": "property available",
+    "multiplePropertiesFound": "properties available",
+    "mapViewComing": "Map view coming soon",
+    "notFound": "Property not found",
+    "notFoundDescription": "The property you're looking for doesn't exist or has been removed.",
+    "browseAll": "Browse All Properties",
+    "types": {
+      "apartment": "Apartment",
+      "house": "House",
+      "room": "Room",
+      "hotel": "Hotel",
+      "cabin": "Cabin",
+      "beach": "Beach",
+      "countryside": "Countryside",
+      "camping": "Camping"
+    },
+    "filters": {
+      "title": "Filters",
+      "searchLocation": "Search location",
+      "price": "Price",
+      "minPrice": "Min price",
+      "maxPrice": "Max price",
+      "propertyType": "Property Type",
+      "amenities": "Amenities",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "guests": "Guests",
+      "apply": "Apply Filters",
+      "clear": "Clear"
+    },
+    "details": {
+      "perNight": "per night",
+      "nights": "nights",
+      "totalPrice": "Total price",
+      "cleaningFee": "Cleaning fee",
+      "serviceFee": "Service fee",
+      "total": "Total",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "guests": "Guests",
+      "guest": "Guest",
+      "bedroom": "Bedroom",
+      "bedrooms": "Bedrooms",
+      "bathroom": "Bathroom",
+      "bathrooms": "Bathrooms",
+      "upTo": "Up to",
+      "reserve": "Reserve",
+      "contact": "Contact Host",
+      "amenities": "What this place offers",
+      "location": "Location",
+      "description": "Description",
+      "hosted": "Hosted by",
+      "reviews": "reviews",
+      "selectDates": "Please select check-in and check-out dates",
+      "contactHostMessage": "Contact the host to learn more about the property or to arrange special accommodations.",
+      "messagePlaceholder": "Write a message to the host...",
+      "sendMessage": "Send Message",
+      "noCharge": "You won't be charged yet",
+      "mapPlaceholder": "Map view would be shown here"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Find your next stay",
+      "subtitle": "Search deals on hotels, homes, and much more..."
+    },
+    "featured": {
+      "title": "Featured Properties",
+      "browseAll": "Browse All Properties"
+    },
+    "destinations": {
+      "title": "Popular Destinations"
+    },
+    "becomeHost": {
+      "title": "Become a Host",
+      "subtitle": "Earn extra income and unlock new opportunities by sharing your space.",
+      "learnMore": "Learn More"
+    }
+  },
+  "footer": {
+    "support": {
+      "title": "Support",
+      "helpCenter": "Help Center",
+      "safety": "Safety Information",
+      "cancellation": "Cancellation Options",
+      "covid": "COVID-19 Response"
+    },
+    "community": {
+      "title": "Community",
+      "disaster": "Disaster Relief",
+      "refugees": "Support Refugees",
+      "discrimination": "Combating Discrimination"
+    },
+    "hosting": {
+      "title": "Hosting",
+      "tryHosting": "Try Hosting",
+      "protection": "Host Protection",
+      "resources": "Host Resources",
+      "community": "Host Community"
+    },
+    "about": {
+      "title": "About",
+      "newsroom": "Newsroom",
+      "features": "New Features",
+      "careers": "Careers",
+      "investors": "Investors"
+    },
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "sitemap": "Sitemap",
+    "copyright": "© 2024 Ybnb, Inc. All rights reserved."
+  },
+  "settings": {
+    "personalInfo": "Personal Information",
+    "security": "Security",
+    "notifications": "Notifications",
+    "payments": "Payments",
+    "language": "Language",
+    "travel": "Travel",
+    "hosting": "Hosting",
+    "profileInfo": "Profile Information",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "address": "Address",
+    "addPhone": "Add phone number",
+    "addAddress": "Add address",
+    "deleteConfirmation": "Are you sure you want to delete your account? This action cannot be undone.",
+    "loginRequired": "You need to be logged in to access settings."
+  }
+}
