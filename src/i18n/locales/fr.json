@@ -12,7 +12,8 @@
     "showMore": "Voir plus",
     "showLess": "Voir moins",
     "comingSoon": "Bientôt disponible",
-    "underDevelopment": "Cette section est en cours de développement"
+    "underDevelopment": "Cette section est en cours de développement",
+    "view": "Voir"
   },
   "auth": {
     "login": "Se connecter",
@@ -38,6 +39,13 @@
     "searchPlaceholder": "Où allez-vous ?",
     "myListings": "Mes annonces"
   },
+  "favorites": {
+    "title": "Propriétés sauvegardées",
+    "noFavorites": "Pas encore de favoris",
+    "noFavoritesDescription": "Trouvez des logements que vous aimerez et sauvegardez-les dans vos favoris.",
+    "browseProperties": "Parcourir les propriétés",
+    "loginRequired": "Vous devez être connecté pour voir vos favoris."
+  },
   "property": {
     "title": "Propriétés",
     "noResults": "Aucune propriété trouvée",
@@ -48,6 +56,17 @@
     "notFound": "Propriété non trouvée",
     "notFoundDescription": "La propriété que vous recherchez n'existe pas ou a été supprimée.",
     "browseAll": "Voir toutes les propriétés",
+    "myProperties": {
+      "title": "Mes Propriétés",
+      "subtitle": "Gérer vos annonces",
+      "noProperties": "Aucune propriété listée",
+      "noPropertiesDescription": "Commencez à gagner de l'argent en partageant votre espace avec des voyageurs.",
+      "addFirst": "Ajouter votre première propriété",
+      "addNew": "Ajouter une nouvelle propriété",
+      "beds": "lits",
+      "baths": "salles de bain",
+      "perNight": "par nuit"
+    },
     "types": {
       "apartment": "Appartement",
       "house": "Maison",
@@ -103,57 +122,6 @@
       "mapPlaceholder": "La carte sera affichée ici"
     }
   },
-  "home": {
-    "hero": {
-      "title": "Trouvez votre prochain séjour",
-      "subtitle": "Recherchez des offres sur les hôtels, les maisons et plus encore..."
-    },
-    "featured": {
-      "title": "Propriétés en vedette",
-      "browseAll": "Voir toutes les propriétés"
-    },
-    "destinations": {
-      "title": "Destinations populaires"
-    },
-    "becomeHost": {
-      "title": "Devenez hôte",
-      "subtitle": "Gagnez un revenu supplémentaire et découvrez de nouvelles opportunités en partageant votre espace.",
-      "learnMore": "En savoir plus"
-    }
-  },
-  "footer": {
-    "support": {
-      "title": "Assistance",
-      "helpCenter": "Centre d'aide",
-      "safety": "Informations de sécurité",
-      "cancellation": "Options d'annulation",
-      "covid": "Réponse COVID-19"
-    },
-    "community": {
-      "title": "Communauté",
-      "disaster": "Aide aux sinistrés",
-      "refugees": "Soutien aux réfugiés",
-      "discrimination": "Lutte contre la discrimination"
-    },
-    "hosting": {
-      "title": "Hébergement",
-      "tryHosting": "Essayer l'hébergement",
-      "protection": "Protection des hôtes",
-      "resources": "Ressources pour les hôtes",
-      "community": "Communauté des hôtes"
-    },
-    "about": {
-      "title": "À propos",
-      "newsroom": "Salle de presse",
-      "features": "Nouvelles fonctionnalités",
-      "careers": "Carrières",
-      "investors": "Investisseurs"
-    },
-    "privacy": "Confidentialité",
-    "terms": "Conditions",
-    "sitemap": "Plan du site",
-    "copyright": "© 2024 Ybnb, Inc. Tous droits réservés."
-  },
   "settings": {
     "personalInfo": "Informations personnelles",
     "security": "Sécurité",
@@ -170,5 +138,88 @@
     "addAddress": "Ajouter une adresse",
     "deleteConfirmation": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.",
     "loginRequired": "Vous devez être connecté pour accéder aux paramètres."
+  },
+  "becomeHost": {
+    "title": "Publier votre annonce",
+    "step": "Étape",
+    "of": "sur",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "listProperty": "Publier l'annonce",
+    "steps": {
+      "basics": {
+        "title": "Informations de base",
+        "propertyTitle": "Titre de la propriété",
+        "titlePlaceholder": "Entrez un titre accrocheur pour votre propriété",
+        "description": "Description de la propriété",
+        "descriptionPlaceholder": "Décrivez votre propriété...",
+        "propertyType": "Type de propriété"
+      },
+      "location": {
+        "title": "Emplacement",
+        "streetAddress": "Adresse",
+        "addressPlaceholder": "Entrez l'adresse",
+        "city": "Ville",
+        "cityPlaceholder": "Entrez la ville",
+        "country": "Pays",
+        "countryPlaceholder": "Entrez le pays"
+      },
+      "photos": {
+        "title": "Photos",
+        "dragDrop": "Glissez et déposez vos photos ici, ou cliquez pour sélectionner des fichiers",
+        "selectPhotos": "Sélectionner des photos",
+        "addMore": "Ajouter plus",
+        "formats": "Formats supportés : JPEG, PNG, WebP",
+        "maxSize": "Taille maximale : 5 Mo par image"
+      },
+      "details": {
+        "title": "Détails de la propriété",
+        "pricePerNight": "Prix par nuit",
+        "pricePlaceholder": "Entrez le prix par nuit",
+        "bedrooms": "Chambres",
+        "bedroomsPlaceholder": "Nombre de chambres",
+        "bathrooms": "Salles de bain",
+        "bathroomsPlaceholder": "Nombre de salles de bain",
+        "maxGuests": "Nombre maximum de voyageurs",
+        "guestsPlaceholder": "Nombre maximum de voyageurs"
+      },
+      "amenities": {
+        "title": "Équipements",
+        "select": "Sélectionnez les équipements que propose votre logement"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Bienvenue",
+    "quickActions": {
+      "home": "Accueil",
+      "properties": "Propriétés",
+      "bookings": "Réservations",
+      "favorites": "Favoris",
+      "messages": "Messages",
+      "settings": "Paramètres"
+    },
+    "stats": {
+      "totalProperties": "Total des propriétés",
+      "totalBookings": "Total des réservations",
+      "unreadMessages": "Messages non lus"
+    },
+    "activity": {
+      "title": "Activité récente",
+      "booking": "Nouvelle demande de réservation",
+      "message": "Message de Sarah",
+      "review": "Nouvel avis sur la propriété",
+      "viewAll": "Voir tout",
+      "timeAgo": {
+        "hours": "heures",
+        "days": "jours"
+      }
+    },
+    "hostProperties": {
+      "title": "Vos Propriétés",
+      "viewProperty": "Voir",
+      "editProperty": "Modifier",
+      "addNew": "Ajouter une nouvelle propriété"
+    }
   }
 }

@@ -12,7 +12,8 @@
     "showMore": "Show more",
     "showLess": "Show less",
     "comingSoon": "Coming Soon",
-    "underDevelopment": "This section is under development"
+    "underDevelopment": "This section is under development",
+    "view": "View"
   },
   "auth": {
     "login": "Log in",
@@ -38,6 +39,13 @@
     "searchPlaceholder": "Where are you going?",
     "myListings": "My Listings"
   },
+  "favorites": {
+    "title": "Saved Properties",
+    "noFavorites": "No favorites yet",
+    "noFavoritesDescription": "Find homes you'll love and save them to your favorites.",
+    "browseProperties": "Browse Properties",
+    "loginRequired": "You need to be logged in to view your favorites."
+  },
   "property": {
     "title": "Properties",
     "noResults": "No properties found",
@@ -48,6 +56,17 @@
     "notFound": "Property not found",
     "notFoundDescription": "The property you're looking for doesn't exist or has been removed.",
     "browseAll": "Browse All Properties",
+    "myProperties": {
+      "title": "My Properties",
+      "subtitle": "Manage your property listings",
+      "noProperties": "No properties listed yet",
+      "noPropertiesDescription": "Start earning by sharing your space with travelers.",
+      "addFirst": "Add Your First Property",
+      "addNew": "Add New Property",
+      "beds": "beds",
+      "baths": "baths",
+      "perNight": "per night"
+    },
     "types": {
       "apartment": "Apartment",
       "house": "House",
@@ -103,57 +122,6 @@
       "mapPlaceholder": "Map view would be shown here"
     }
   },
-  "home": {
-    "hero": {
-      "title": "Find your next stay",
-      "subtitle": "Search deals on hotels, homes, and much more..."
-    },
-    "featured": {
-      "title": "Featured Properties",
-      "browseAll": "Browse All Properties"
-    },
-    "destinations": {
-      "title": "Popular Destinations"
-    },
-    "becomeHost": {
-      "title": "Become a Host",
-      "subtitle": "Earn extra income and unlock new opportunities by sharing your space.",
-      "learnMore": "Learn More"
-    }
-  },
-  "footer": {
-    "support": {
-      "title": "Support",
-      "helpCenter": "Help Center",
-      "safety": "Safety Information",
-      "cancellation": "Cancellation Options",
-      "covid": "COVID-19 Response"
-    },
-    "community": {
-      "title": "Community",
-      "disaster": "Disaster Relief",
-      "refugees": "Support Refugees",
-      "discrimination": "Combating Discrimination"
-    },
-    "hosting": {
-      "title": "Hosting",
-      "tryHosting": "Try Hosting",
-      "protection": "Host Protection",
-      "resources": "Host Resources",
-      "community": "Host Community"
-    },
-    "about": {
-      "title": "About",
-      "newsroom": "Newsroom",
-      "features": "New Features",
-      "careers": "Careers",
-      "investors": "Investors"
-    },
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "sitemap": "Sitemap",
-    "copyright": "© 2024 Ybnb, Inc. All rights reserved."
-  },
   "settings": {
     "personalInfo": "Personal Information",
     "security": "Security",
@@ -170,5 +138,88 @@
     "addAddress": "Add address",
     "deleteConfirmation": "Are you sure you want to delete your account? This action cannot be undone.",
     "loginRequired": "You need to be logged in to access settings."
+  },
+  "becomeHost": {
+    "title": "List Your Property",
+    "step": "Step",
+    "of": "of",
+    "previous": "Previous",
+    "next": "Next",
+    "listProperty": "List Property",
+    "steps": {
+      "basics": {
+        "title": "Basic Information",
+        "propertyTitle": "Property Title",
+        "titlePlaceholder": "Enter a catchy title for your property",
+        "description": "Property Description",
+        "descriptionPlaceholder": "Describe your property...",
+        "propertyType": "Property Type"
+      },
+      "location": {
+        "title": "Location",
+        "streetAddress": "Street Address",
+        "addressPlaceholder": "Enter the street address",
+        "city": "City",
+        "cityPlaceholder": "Enter the city",
+        "country": "Country",
+        "countryPlaceholder": "Enter the country"
+      },
+      "photos": {
+        "title": "Photos",
+        "dragDrop": "Drag and drop your photos here, or click to select files",
+        "selectPhotos": "Select Photos",
+        "addMore": "Add more",
+        "formats": "Supported formats: JPEG, PNG, WebP",
+        "maxSize": "Maximum file size: 5MB per image"
+      },
+      "details": {
+        "title": "Property Details",
+        "pricePerNight": "Price per Night",
+        "pricePlaceholder": "Enter price per night",
+        "bedrooms": "Bedrooms",
+        "bedroomsPlaceholder": "Number of bedrooms",
+        "bathrooms": "Bathrooms",
+        "bathroomsPlaceholder": "Number of bathrooms",
+        "maxGuests": "Max Guests",
+        "guestsPlaceholder": "Maximum number of guests"
+      },
+      "amenities": {
+        "title": "Amenities",
+        "select": "Select the amenities your property offers"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "quickActions": {
+      "home": "Home",
+      "properties": "Properties",
+      "bookings": "Bookings",
+      "favorites": "Favorites",
+      "messages": "Messages",
+      "settings": "Settings"
+    },
+    "stats": {
+      "totalProperties": "Total Properties",
+      "totalBookings": "Total Bookings",
+      "unreadMessages": "Unread Messages"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "booking": "New booking request",
+      "message": "Message from Sarah",
+      "review": "New property review",
+      "viewAll": "View all",
+      "timeAgo": {
+        "hours": "hours ago",
+        "days": "days ago"
+      }
+    },
+    "hostProperties": {
+      "title": "Your Properties",
+      "viewProperty": "View",
+      "editProperty": "Edit",
+      "addNew": "Add New Property"
+    }
   }
 }

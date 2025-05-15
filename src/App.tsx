@@ -13,6 +13,7 @@ import PropertyListPage from './pages/PropertyListPage';
 import PropertyDetailPage from './pages/PropertyDetailPage';
 import FavoritesPage from './pages/FavoritesPage';
 import DashboardPage from './pages/Dashboard/DashboardPage';
+import PropertiesPage from './pages/Dashboard/PropertiesPage';
 import BookingsPage from './pages/Dashboard/BookingsPage';
 import MessagesPage from './pages/Dashboard/MessagesPage';
 import SettingsPage from './pages/Dashboard/SettingsPage';
@@ -33,6 +34,7 @@ function App() {
               <Route path="/properties/:id" element={<PropertyDetailPage />} />
               <Route path="/favorites" element={<FavoritesPage />} />
               <Route path="/dashboard" element={<DashboardPage />} />
+              <Route path="/dashboard/properties" element={<PropertiesPage />} />
               <Route path="/dashboard/bookings" element={<BookingsPage />} />
               <Route path="/dashboard/messages" element={<MessagesPage />} />
               <Route path="/dashboard/settings" element={<SettingsPage />} />
